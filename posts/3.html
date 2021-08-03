@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="放松一下, 小玲博客 博客 小白 学习 IT it 信息技术 搭建博客">
+    <meta name="keywords" content="如何安装并配置Tomcat9, 小玲博客 博客 小白 学习 IT it 信息技术 搭建博客">
     <meta name="description" content="记录 | 学习 | 小白 | 学到老活到老">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -20,7 +20,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>放松一下 | 小玲の同学</title>
+    <title>如何安装并配置Tomcat9 | 小玲の同学</title>
 
     <link rel="icon" type="image/png" href="https://z3.ax1x.com/2021/08/02/fCYKNF.png">
 
@@ -538,12 +538,12 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013951.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://z3.ax1x.com/2021/08/03/fiC3IU.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">放松一下</h1>
+                    <h1 class="description center-align post-title">如何安装并配置Tomcat9</h1>
                 </div>
             </div>
         </div>
@@ -662,12 +662,25 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Tomcat/">
+                                <span class="chip bg-color">Tomcat</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/" class="post-category">
+                                工具篇
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -676,28 +689,28 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-08-10
+                    2021-08-03
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-06-13
+                    2021-08-03
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    6
+                    525
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -715,8 +728,31 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="影音资源共享"><a href="#影音资源共享" class="headerlink" title="影音资源共享"></a>影音资源共享</h1>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=2979186&amp;cid=4667585&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
+                <p>前言:</p>
+<p>我们知道，Apache是普通服务器，本身只支持html即普通网页。不过可以通过插件支持php,还可以与Tomcat连通(单向Apache连接Tomcat,就是说通过Apache可以访问Tomcat资源。反之不然)。Apache只支持静态网页，但像php,cgi,jsp等动态网页就需要Tomcat来处理。Tomcat是由Apache软件基金会下属的Jakarta项目开发的一个Servlet容器，按照Sun Microsystems提供的技术规范，实现了对Servlet和JavaServer Page（JSP）的支持，并提供了作为Web服务器的一些特有功能，如Tomcat管理和控制平台、安全域管理和Tomcat阀等。由于Tomcat本身也内含了一个HTTP服务器，它也可以被视作一个单独的Web服务器。但是，不能将 Tomcat 和 Apache Web 服务器混淆，Apache Web Server 是一个用 C 语言实现的 HTTP web server；这两个 HTTP web server 不是捆绑在一起的。Apache Tomcat 包含了一个配置管理工具，也可以通过编辑 XML 格式的配置文件来进行配置。Apache，nginx，tomcat并称为网页服务三剑客，可见其应用度之广泛。那怎样下载配置Tomcat？</p>
+<h2 id="一、官网下载"><a href="#一、官网下载" class="headerlink" title="一、官网下载"></a>一、<a target="_blank" rel="noopener" href="https://tomcat.apache.org/">官网下载</a></h2><p>1.1、选择Tomcat9.0.43版本</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/ficFmT"><img src="https://z3.ax1x.com/2021/08/03/ficFmT.png" alt="ficFmT.png"></a></p>
+<p>1.2、选择zip(pgp,sha2,sha512)进行下载，下载zip的好处就是不用安装 ，直接下载解压就可以使用了</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/ficq3R"><img src="https://z3.ax1x.com/2021/08/03/ficq3R.gif" alt="ficq3R.gif"></a></p>
+<h2 id="二、环境变量配置"><a href="#二、环境变量配置" class="headerlink" title="二、环境变量配置"></a>二、环境变量配置</h2><p>2.1、设置系统变量 ,新增 CATALINA_HOME变量，变量值如下图</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/figi8A"><img src="https://z3.ax1x.com/2021/08/03/figi8A.png" alt="figi8A.png"></a></p>
+<p>2.2、Path中,末尾新添加%CATALINA_HOME%\bin 和 %CATALINA_HOME%\lib。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/fignUg"><img src="https://z3.ax1x.com/2021/08/03/fignUg.png" alt="fignUg.png"></a></p>
+<p>2.3、添加用户，进入tomcat9的目录的conf。 </p>
+<p>以Notepad++或记事本选打开“tomcat-users.xml”文件，在最后 一行代码的前面添加如下代码：</p>
+<pre class="line-numbers language-xml" data-language="xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>role</span> <span class="token attr-name">rolename</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>manager-gui<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span> 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>role</span> <span class="token attr-name">rolename</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>admin-gui<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span> 
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>user</span> <span class="token attr-name">username</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>admin<span class="token punctuation">"</span></span> <span class="token attr-name">password</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>admin<span class="token punctuation">"</span></span> <span class="token attr-name">roles</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>admin-gui<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>user</span> <span class="token attr-name">username</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tomcat<span class="token punctuation">"</span></span> <span class="token attr-name">password</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>admin<span class="token punctuation">"</span></span> <span class="token attr-name">roles</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>manager-gui<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/figWPH"><img src="https://z3.ax1x.com/2021/08/03/figWPH.png" alt="figWPH.png"></a></p>
+<p>2.4、启动tomcat测试，打开tomcat目录下的bin 文件夹，再双击startup来启动tomcat。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/figbdS"><img src="https://z3.ax1x.com/2021/08/03/figbdS.png" alt="figbdS.png"></a></p>
+<p>2.5 打开浏览器，<a target="_blank" rel="noopener" href="http://localhost:8080/">http://localhost:8080 </a>或 <a target="_blank" rel="noopener" href="http://127.0.0.1:8080/">http://127.0.0.1:8080</a>可以打开tomcat的主页。</p>
+<p><a target="_blank" rel="noopener" href="https://imgtu.com/i/fi2PdU"><img src="https://z3.ax1x.com/2021/08/03/fi2PdU.png" alt="fi2PdU.png"></a></p>
+<p><strong>至此，Tomcat9.0.43下载配置成功！</strong></p>
 
                 
             </div>
@@ -743,7 +779,7 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lovezcr.github.io/List/index.html">https://lovezcr.github.io/List/index.html</a>
+                    <a href="https://lovezcr.github.io/posts/3.html">https://lovezcr.github.io/posts/3.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -780,7 +816,11 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Tomcat/">
+                                    <span class="chip bg-color">Tomcat</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -1250,18 +1290,16 @@ new Valine({
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/List/index.html">
+                <a href="/posts/4.html">
                     <div class="card-image">
                         
+                        <img src="https://z3.ax1x.com/2021/08/03/fikEmn.jpg" class="responsive-img" alt="NavicatPremium15的下载与安装">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013951.jpg" class="responsive-img" alt="放松一下">
-                        
-                        <span class="card-title">放松一下</span>
+                        <span class="card-title">NavicatPremium15的下载与安装</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1271,18 +1309,33 @@ new Valine({
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-08-10
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-03
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            小玲
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/" class="post-category">
+                                    工具篇
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Navicat/">
+                        <span class="chip bg-color">Navicat</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                        <span class="chip bg-color">数据库</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1290,16 +1343,15 @@ new Valine({
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/List/index.html">
+                <a href="/posts/2.html">
                     <div class="card-image">
                         
+                        <img src="https://z3.ax1x.com/2021/08/03/fPGvND.png" class="responsive-img" alt="eclipse搭建jsp运行开发环境">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928013951.jpg" class="responsive-img" alt="放松一下">
-                        
-                        <span class="card-title">放松一下</span>
+                        <span class="card-title">eclipse搭建jsp运行开发环境</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1310,17 +1362,32 @@ new Valine({
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-08-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-03
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            小玲
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/" class="post-category">
+                                    工具篇
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/eclipse/">
+                        <span class="chip bg-color">eclipse</span>
+                    </a>
+                    
+                    <a href="/tags/jsp/">
+                        <span class="chip bg-color">jsp</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
