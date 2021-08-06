@@ -833,7 +833,7 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
         xAxis: [
             {
                 type: 'category',
-                data: ["Navicat","数据库","jdk","eclipse","jsp","Tomcat"]
+                data: ["Navicat","数据库","eclipse","jsp","jdk","Tomcat"]
             }
         ],
         yAxis: [
@@ -976,12 +976,6 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
             
             
             
-            <a href="/tags/jdk/">
-                <span class="chip center-align waves-effect waves-light chip-default">jdk</span>
-            </a>
-            
-            
-            
             <a href="/tags/eclipse/">
                 <span class="chip center-align waves-effect waves-light chip-default">eclipse</span>
             </a>
@@ -990,6 +984,12 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
             
             <a href="/tags/jsp/">
                 <span class="chip center-align waves-effect waves-light chip-default">jsp</span>
+            </a>
+            
+            
+            
+            <a href="/tags/jdk/">
+                <span class="chip center-align waves-effect waves-light chip-default">jdk</span>
             </a>
             
             
@@ -1021,12 +1021,16 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
 <style>
     .aplayer .aplayer-lrc p {
         
+        display: none;
+        
         font-size: 12px;
         font-weight: 700;
         line-height: 16px !important;
     }
 
     .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
         
         font-size: 15px;
         color: #87CEFA;
@@ -1057,7 +1061,7 @@ color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com
                    order='random'
                    preload='auto'
                    volume='0.7'
-                   list-folded='false'
+                   list-folded='true'
         >
         </meting-js>
     </div>
