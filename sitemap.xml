@@ -37,6 +37,13 @@
   </url>
   
   <url>
+    <loc>https://lovezcr.github.io/baidu_verify_xxxxxxx.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lovezcr.github.io/404.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -51,14 +58,7 @@
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/categories/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lovezcr.github.io/baidu_verify_xxxxxxx.html</loc>
+    <loc>https://lovezcr.github.io/about/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -72,13 +72,6 @@
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/about/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://lovezcr.github.io/archives/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -86,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/census/index.html</loc>
+    <loc>https://lovezcr.github.io/categories/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/resource/index.html</loc>
+    <loc>https://lovezcr.github.io/census/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -114,6 +107,13 @@
   </url>
   
   <url>
+    <loc>https://lovezcr.github.io/resource/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lovezcr.github.io/List/music/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -121,14 +121,14 @@
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/List/movies/index.html</loc>
+    <loc>https://lovezcr.github.io/List/galleries/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/List/galleries/index.html</loc>
+    <loc>https://lovezcr.github.io/List/movies/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -184,6 +184,13 @@
   </url>
   
   <url>
+    <loc>https://lovezcr.github.io/List/galleries/%E6%B8%85%E6%96%B0%E8%8A%B1%E5%8D%89/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lovezcr.github.io/List/galleries/%E5%9F%8E%E5%B8%82%E9%A3%8E%E5%85%89/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -198,13 +205,6 @@
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/List/galleries/%E6%B8%85%E6%96%B0%E8%8A%B1%E5%8D%89/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://lovezcr.github.io/List/galleries/%E7%92%80%E7%92%A8%E6%98%9F%E7%A9%BA/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
@@ -212,14 +212,14 @@
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/List/galleries/%E8%87%AA%E7%84%B6%E9%A3%8E%E6%99%AF/index.html</loc>
+    <loc>https://lovezcr.github.io/List/galleries/%E7%94%9C%E7%BE%8E%E9%A3%9F%E5%93%81/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovezcr.github.io/List/galleries/%E7%94%9C%E7%BE%8E%E9%A3%9F%E5%93%81/index.html</loc>
+    <loc>https://lovezcr.github.io/List/galleries/%E8%87%AA%E7%84%B6%E9%A3%8E%E6%99%AF/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -249,6 +249,13 @@
   </url>
   
   <url>
+    <loc>https://lovezcr.github.io/tags/jdk/</loc>
+    <lastmod>2021-08-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://lovezcr.github.io/tags/eclipse/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
@@ -257,13 +264,6 @@
   
   <url>
     <loc>https://lovezcr.github.io/tags/jsp/</loc>
-    <lastmod>2021-08-14</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://lovezcr.github.io/tags/jdk/</loc>
     <lastmod>2021-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
